@@ -7,7 +7,8 @@ Stephen Abraham
 ************************
 Program Description
 **************************
-
+ A program designed to listen to a specified serial port and record
+ any and all data coming from the specified serial port into a .csv file
 
 
 ************
@@ -28,6 +29,8 @@ To remove all executables from bin/ directory:
 ****************************
 Known Limitations, Issues and Errors
 ****************************
-
+ - If the serial port is reset, the first few lines of data
+   from the previous session are outputted
+ 
 
 
